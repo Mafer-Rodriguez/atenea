@@ -1,10 +1,11 @@
+import Mont from './mont';
 
-import Varuna  from './varuna';
+
 
 function App() {
   return (
     <div className='App'>
-      <Varuna/>
+      <Mont/>
     </div>
   )
 }
