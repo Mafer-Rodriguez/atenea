@@ -6,11 +6,6 @@ import App from './App'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import foto1 from './imagenes/micro.jpeg'
-import foto2 from './imagenes/micro2.jpg'
-import foto3 from './imagenes/IA.jpg'
-import foto4 from './imagenes/foto4.jpg'
-import foto5 from './imagenes/foto5.webp'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

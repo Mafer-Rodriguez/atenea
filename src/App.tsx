@@ -1,11 +1,10 @@
-import Mont from './mont';
-
+import Index from './index.tsx';
 
 
 function App() {
   return (
     <div className='App'>
-      <Mont/>
+      <Index/>
     </div>
   )
 }
