@@ -2,16 +2,13 @@ function Index() {
   return (
     <div>
       {/* Barra de navegación fija */}
-      <div className="fixed top-0 w-full z-50 shadow-md">
-
-        {/* Parte superior (blanca) */}
-        <div className="w-full bg-white flex justify-between items-center py-2 px-8">
-          {/* Logo izquierda */}
-          <div className="logoIzquierda">
+      <div className="fixed top-0 w-full z-50 bg-white shadow-md">
+        <div className="menu flex justify-between p-6">
+          <div className="logo">
             <img
               src="https://ucarecdn.com/d962db80-ee9f-4e6a-8543-b14cf73994af/logoAtenea.jpeg"
               alt="logo"
-              style={{ width: "90px", height: "auto" }}
+              style={{ width: "60px", height: "auto" }}
             />
           </div>
 
@@ -82,8 +79,6 @@ function Index() {
           </div>
         </div>
       </div>
-
-
 
       {/* Sección de héroe */}
       <div
