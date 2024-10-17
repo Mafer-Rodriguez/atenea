@@ -44,11 +44,21 @@ function Index() {
 
           {/* Enlaces de Navegación */}
           <ul className="flex space-x-8 text-white font-semibold">
-            <li>Inicio</li>
-            <li>Historial</li>
-            <li>Mapa</li>
-            <li>Blockchain</li>
-            <li>Contacto</li>
+            <li>
+              <button className="text-white hover:text-gray-300">Inicio</button>
+            </li>
+            <li>
+              <button className="text-white hover:text-gray-300">Historial</button>
+            </li>
+            <li>
+              <button className="text-white hover:text-gray-300">Mapa</button>
+            </li>
+            <li>
+              <button className="text-white hover:text-gray-300">Blockchain</button>
+            </li>
+            <li>
+              <button className="text-white hover:text-gray-300">Contacto</button>
+            </li>
           </ul>
 
           {/* Barra de búsqueda y botón */}
@@ -82,15 +92,23 @@ function Index() {
           backgroundImage: `url('https://ucarecdn.com/0df6fe97-effb-4321-b595-25706a712765/varunaFondo1.jpeg')`,
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center text-white">
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text- text-white">
           <h1 className="text-5xl md:text-7xl font-bold">
-            SISTEMA DE GESTIÓN DE REPORTES ATENEA
+          SISTEMA DE GESTIÓN 
+          <br></br>
+          DE REPORTES 
+          <br></br>
+          ATENEA
           </h1>
           <p className="mt-4 text-lg md:text-2xl text-center">
             Una Plataforma Diseñada Para Optimizar Y Asegurar La Gestión De
             Denuncias Ciudadanas
           </p>
         </div>
+      </div>
+
+      <div>
+
       </div>
 
       {/* Sección de Bienvenida */}
