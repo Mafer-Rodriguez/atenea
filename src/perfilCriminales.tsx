@@ -1,7 +1,9 @@
-function PerfilesCriminales (){
-    return(
-        <div>
-            <div className="fixed top-0 w-full z-50 bg-white shadow-md">
+import PiePagina from "./piePagina";
+
+function PerfilesCriminales() {
+  return (
+    <div>
+      <div className="fixed top-0 w-full z-50 bg-white shadow-md">
         <div className="menu flex justify-between p-3">
           <div className="logo">
             <img
@@ -59,7 +61,7 @@ function PerfilesCriminales (){
 
         </div>
 
-        </div>
+      </div>
 
       {/* Sección de héroe */}
       <div
@@ -72,7 +74,7 @@ function PerfilesCriminales (){
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center text-white">
           {/* Texto principal */}
           <h1 className="text-5xl md:text-7xl font-bold">
-          Perfil Criminales
+            Perfil Criminales
           </h1>
 
           {/* Espacio vacío para ajustar la posición del texto */}
@@ -88,18 +90,42 @@ function PerfilesCriminales (){
           </div>
         </div>
 
-        
-        
+
+
       </div>
 
-      <div
-        className="hero flex justify-center items-center bg-cover bg-center min-h-screen relative"
-        style={{
-          backgroundImage: `url('https://ucarecdn.com/336bad49-5088-4ea5-96ba-fb15112c1b15/Capturadepantalla20241018020833.png')`,
-        }}
-      ></div>  
+      <div className="flex flex-col items-center space-y-8 p-6">
+        <div
+          className="hero flex justify-center items-center bg-cover bg-center h-40 w-full md:h-40 md:w-3/4 relative"
+          style={{
+            backgroundImage: `url('https://ucarecdn.com/ce2c09ac-0a1c-4806-a8ff-43de125ba7eb/WhatsAppImage20241018at100452AM.jpeg')`,
+          }}
+        ></div>
+        <div
+          className="hero flex justify-center items-center bg-cover bg-center h-64 w-full md:h-50 md:w-3/4 relative"
+          style={{
+            backgroundImage: `url('https://ucarecdn.com/d68a1bd7-a44b-4ebd-84a3-0b4f51791c21/WhatsAppImage20241018at100427AM.jpeg')`,
+          }}
+        ></div>
+
+        <div
+          className="hero flex justify-center items-center bg-cover bg-center h-64 w-full md:h-50 md:w-3/4 relative"
+          style={{
+            backgroundImage: `url('https://ucarecdn.com/326b4e98-6715-4cab-8215-4ede946d341a/Capturadepantalla20241018102911.png')`,
+          }}
+        ></div>
+
+
+
+
+      </div>
+      <div>
+        <PiePagina />
+      </div>
+
+
 
     </div>
-    );
+  );
 }
 export default PerfilesCriminales 

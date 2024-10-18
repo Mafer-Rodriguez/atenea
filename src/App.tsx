@@ -5,12 +5,13 @@
 //import Index from './index.tsx'
 //import Barra from './barra.tsx'
 //import Blockchain from './blockchain.tsx'
-import PerfilesCriminales from './perfilCriminales.tsx'
+//import PerfilesCriminales from './perfilCriminales.tsx'
+import PerfilVictimas from './perfilVictimas.tsx'
 
 function App() {
   return (
     <div className='App'>
-      <PerfilesCriminales/>
+      <PerfilVictimas/>
     </div>
   )
 }
