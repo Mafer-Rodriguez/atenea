@@ -91,7 +91,7 @@ function Index() {
           <div className="flex justify-between">
             <div className="w-full lg:w-1/4 mb-4 lg:mb-0">
               <img
-                src="https://ucarecdn.com/d962db80-ee9f-4e6a-8543-b14cf73994af/logoAtenea.jpeg"
+                src="https://ucarecdn.com/7e4675f6-ba05-43c7-b3d0-e2aef7478afe/ATENEALOGO.png"
                 alt="Atenea Logo"
                 className="mb-4"
               />
