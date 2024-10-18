@@ -200,7 +200,7 @@ function Index() {
           </div>
         </div>
         <div className="text-center mt-4">
-          <p>2024 © Atenea - Gestión de Reportes</p>
+          <p>IRIS 2024 © Atenea - Gestión de Reportes</p>
         </div>
       </footer>
     </div>
