@@ -1,8 +1,7 @@
-import PiePagina from "./piePagina";
-
-function PerfilesCriminales() {
+function Barra() {
     return (
         <div>
+            {/* Barra de navegación fija */}
             <div className="fixed top-0 w-full z-50 bg-white shadow-md">
                 <div className="menu flex justify-between p-3">
                     <div className="logo">
@@ -24,7 +23,7 @@ function PerfilesCriminales() {
                         </div>
                         {/* QR */}
                         <img
-                            src="https://ucarecdn.com/771ef9be-fb12-4d03-b15f-be2d6a5af014/qr.png" // Reemplaza esta URL con tu imagen de QR
+                            src="https://via.placeholder.com/50" // Reemplaza esta URL con tu imagen de QR
                             alt="qr"
                             style={{ width: "50px", height: "auto" }}
                         />
@@ -59,63 +58,29 @@ function PerfilesCriminales() {
                         </li>
                     </ul>
 
-                </div>
-
-            </div>
-
-            {/* Sección de héroe */}
-            <div
-                className="hero flex justify-center items-center bg-cover bg-center min-h-screen relative"
-                style={{
-                    backgroundImage: `url('https://ucarecdn.com/d947cd4a-c1a7-4e79-9599-19d5900bab18/WhatsAppImage20241018at105316AM.jpeg')`,
-                }}
-            >
-                <div></div>
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center text-white">
-                    {/* Texto principal */}
-                    <h1 className="text-5xl md:text-7xl font-bold">
-                        Perfil Víctimas
-                    </h1>
-
-                    {/* Espacio vacío para ajustar la posición del texto */}
-                    <div className="pb-20"></div>
-
-                    {/* Contenedores de íconos que estarán hasta abajo */}
-                    <div className="absolute bottom-0 left-0 right-0 mb-10 flex justify-center space-x-6">
-                        {/* Bloque 3: Zonas de Riesgo */}
-                        <div className="bg-blue-500 p-4 rounded-lg text-center shadow-md">
-                            <img src="https://ucarecdn.com/01f21916-23a3-48bf-8c9f-2c1fde510773/zone_person_urgent_16dp_FFFFFF_FILL0_wght400_GRAD0_opsz20.png" alt="Zonas de Riesgo" className="mx-auto mb-2" />
-                            <h3 className="text-xl font-bold">Zonas de Rescate</h3>
+                    {/* Barra de búsqueda y botón */}
+                    <div className="flex items-center space-x-4">
+                        {/* Barra de búsqueda */}
+                        <div className="relative">
+                            <input
+                                type="text"
+                                className="px-4 py-2 rounded-full bg-white text-gray-700"
+                                placeholder="Buscar"
+                            />
+                            <span className="absolute right-3 top-2.5 text-gray-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" /></svg>
+                            </span>
                         </div>
+
+                        {/* Botón de sesión */}
+                        <button className="bg-[#9ab2fa] text-white rounded-lg px-6 py-2">
+                            Iniciar Sesión
+                        </button>
                     </div>
                 </div>
-
-
-
             </div>
-
-            <div className="flex flex-col items-center space-y-8 p-auto">
-                <div
-                    className="hero flex justify-center items-center bg-cover bg-center h-[400px] w-full md:h-[400px] md:w-3/4 relative"
-                    style={{
-                        backgroundImage: `url('https://ucarecdn.com/861763c2-7c81-4654-bcaf-f41cc9e91441/1111.jpg')`,
-                    }}
-                ></div>
-                <div
-                    className="hero flex justify-center items-center bg-cover bg-center h-[300px] w-full md:h-[1000px] md:w-3/4 relative"
-                    style={{
-                        backgroundImage: `url('https://ucarecdn.com/fc3995c5-061a-433a-98e3-692beee09832/policehaticonstylefreevector.jpg')`,
-                    }}
-                ></div>
-
-            </div>
-            <div>
-                <PiePagina />
-            </div>
-
-
-
         </div>
+
     );
 }
-export default PerfilesCriminales 
+export default Barra;
